@@ -45,7 +45,7 @@ class HomePage extends React.Component {
                             
                 </NavLink>
                 <div style={{float: 'right'}}>
-                    <Link to="logout">Hi {user.firstName} Logout</Link>
+                    <Link to="/login">Hi {user.firstName} Logout</Link>
                 </div>
                 <hr style={{color:'black'}}/>
                         <Route path="/dashboard" component={Dashboard} />
