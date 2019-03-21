@@ -1,0 +1,1 @@
+export default {apiUrl:"https://asd.in/"}
